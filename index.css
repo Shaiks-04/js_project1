@@ -173,3 +173,135 @@ footer{
     text-align: end;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media screen and (max-width:360px) {
+    .clock > img{
+        margin:10px 100px;
+    }
+    
+    .box{
+        width:380px;
+        height:350px;
+        margin-left: 90px;
+    }
+    .wake select{
+        width: 200px;
+    }
+    .hr{
+        width:10px;
+    }
+    .good{
+        width: 370px;
+        margin: 10px 0px 10px 100px;
+    }
+    button{
+        width:130px;
+    }
+    .alarm{
+        margin-left: 100px;
+        margin-bottom: 20px;;
+    }
+    .my{
+        margin-left: 80px;
+    }
+    .timebox{
+        width: 405px;
+    }
+    .time{
+         margin: 5px;
+    }
+    .z1{
+        width: 380px;
+        position: relative;
+        z-index: -1;
+        top:-70px;
+        right: -15px;
+    
+    }
+    .z2{
+        width: 335px;
+        position: relative;
+        z-index: -2;
+        top:-140px;
+        right: -35px;
+    }
+    .grab{
+        width: 390px;
+    font-size:12px;
+    margin-left: 80px;
+    }
+    .imgs img{
+        width: 390px;margin-left: 80px;
+    }
+    footer{
+        font-size: 11px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:780px) {
+    .box{
+        width:700px;
+        height:380px;
+        margin:0px 20px;
+    }
+    .box p{
+        font-size: 19px;
+    }
+    .wake select{
+        width: 400px;
+    }
+    .hr{
+        width:20px;
+    }
+    .good{
+        width: 700px;
+        margin: 10px 0px 10px 20px;
+    }
+    button{
+        width:400px;
+    }
+    .alarm{
+        margin-left: 20px;
+        margin-bottom: 20px;;
+    }
+    
+    .my{
+        margin-left: 0px;
+    }
+    .timebox{
+        width: 705px;
+    }
+    .time{
+         margin: 45px;
+    }
+    .z1{
+        width: 650px;
+        position: relative;
+        z-index: -1;
+        top:-70px;
+        right: -25px;
+    
+    }
+    .z2{
+        width: 605px;
+        position: relative;
+        z-index: -2;
+        top:-140px;
+        right: -45px;
+    }
+    .grab{
+        width: 700px;
+    font-size:12px;
+    margin-left: 0px;
+    }
+    footer{
+        font-size: 25px;
+    }
+    .imgs img{
+        width: 700px;
+    }
+    .wakeup{
+        width:300px;
+    padding: 10px 0px 3px 10px;
+    line-height: 22px;
+    }
+    
+}
